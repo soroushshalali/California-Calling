@@ -254,7 +254,7 @@ header{
     margin-right: -7%;
     margin-top: -7%;
     animation-name: ani-rotate;
-    animation-duration: 7s;
+    animation-duration: 37s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
 }
@@ -263,7 +263,7 @@ header{
         transform: rotate(0deg);
     }
     to{
-        transform: rotate(360deg);
+        transform: rotate(1800deg);
     }
 }
 .sec-golden-rev > article{
@@ -385,7 +385,7 @@ header{
         transform: translateX(-10%);
     }
     to{
-        transform: translateX(25%);
+        transform: translateX(20%);
     }
 }
 footer{
@@ -413,7 +413,10 @@ footer > div > h4{
 
 
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1140px) {
+    .sec-golden-rev > img{
+        width: 25%;
+    }
     body{
         font-size: 16px;
     }
@@ -448,7 +451,6 @@ footer > div > h4{
         padding: 2vh 5%;
         height: fit-content;
       }
-
       .images > h1{
         text-align: left;
     }
@@ -655,6 +657,9 @@ line-height: 4vh;
 
 
 @media only screen and (max-width: 768px) {
+    .sec-golden-rev > img{
+        width: 25%;
+    }
     body{
         font-size: 12px;
     }
@@ -902,6 +907,9 @@ line-height: 4vh;
 
 
 @media only screen and (max-width: 576px) {
+    .sec-golden-rev > img{
+        width: 25%;
+    }
     body{
         font-size: 8px;
         margin: 0;
