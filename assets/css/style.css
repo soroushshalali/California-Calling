@@ -1,0 +1,1141 @@
+@font-face{
+    font-family: 'larish1';
+    src: url(Larish\ Neue\ Semibold.woff2);
+}
+@font-face{
+    font-family: 'larish2';
+    src: url(LarishNeueSemibold.woff);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'larish1';
+    font-size: 16px;
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 30% 40% 30%; 
+    padding-bottom: 5vh;
+}
+.logo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.logo > img{
+    width: 20%;
+}
+.california{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.california > div{
+    width: 2px;
+    background-color: rgba(255, 255, 255, 0.288);
+    height:30% ;
+    margin-top: 1vh;
+    margin-bottom: 10%;
+    
+}
+.california > h6{
+    font-size: 1.2em;
+    font-weight: 100;
+    font-family: 'Work Sans' ;
+}
+.california > h1{
+    font-size: 6em;
+}
+.california > h2{
+    color: black;
+    font-size: 6em;
+    /* text-shadow: 0px 0px 3px white;
+    color: black; */
+    margin-top: -2%;
+    -webkit-text-stroke:1px white;
+}
+.header-btn{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 95vh;
+}
+.header-btn > a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: 'Work Sans' ;
+    border: 1px solid white;
+    padding: 3% 10% ;
+    transition: 0.4s;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+.header-btn > a:hover{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+    background-color: white;
+}
+.art-california{
+    
+}
+.art-california > p{
+    color: white;
+    font-size: 6em;
+    margin-left: 5%;
+}
+.mapsec{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 18vh 5%;
+    background-image: url(../img/map.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    z-index: -1;
+}
+.mapsec > h5{
+    font-size: 2em;
+    font-family: 'Work Sans' ;
+    font-weight: 100;
+}
+.mapsec > h1{
+    font-size: 8em;
+}
+.images{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr); 
+    height: 200vh;
+}
+.photo1{
+    width: 100%;
+    grid-row:1/4 ;
+    grid-column:16/21 ;
+    margin: -25%;
+}
+.photo2{
+    width: 100%;
+    grid-row:4/7 ;
+    grid-column:2/6 ;
+}
+.photo3{
+    width: 100%;
+    grid-row:8/11 ;
+    grid-column:16/20 ;
+}
+.photo4{
+    width: 100%;
+    grid-column: 4/9;
+    grid-row: 11/14;
+}
+.photo5{
+    width: 100%;
+    grid-row:13/17 ;
+    grid-column:13/18 ;
+}
+.photo6{
+    width: 100%;
+    grid-row:17/19 ;
+    grid-column:2/6 ;
+}
+.photo7{
+    width: 100%;
+    grid-row:20/-1 ;
+    grid-column:11/17 ;
+    margin-bottom: -30%;
+}
+.images > h1{
+    grid-row:5/8 ;
+    grid-column:7/15 ;
+    font-size: 5em;
+}
+.teil1{
+    grid-row:8/13 ;
+    grid-column:7/14;
+    line-height: 4vh;
+    margin-top: 3vh;
+    font-family: 'Work Sans' ;
+    font-size: 1.1em;
+    word-spacing: 2px;
+}
+.teil2{
+    grid-row:17/19 ;
+    grid-column:7/14;
+    line-height: 4vh;
+    font-family: 'Work Sans' ;
+    font-size: 1.1em;
+    word-spacing: 2px;
+}
+.btnslid{
+    display: none;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(160, 160, 160) ;
+    border-radius: 50%;
+    outline: none;
+    margin-top: 3vh;
+    box-shadow: 0px 0px 2px rgb(117, 117, 117)09, 109, 109);
+
+    
+}
+.sec-golden{
+    
+}
+.sec-golden > article{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+   padding: 30vh 10% ;
+}
+.sec-golden > article > div{
+    
+}
+.sec-golden > article > div >h6{
+    font-size: 2em;
+    font-family: 'Work Sans' ;
+    font-weight: 100;
+
+    
+}
+.sec-golden > article > div >h1{
+    font-size: 6em;
+}
+.sec-golden > article > section{
+    padding-left: 10%;
+}
+.sec-golden > article > section > p{
+    font-size: 2em;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    line-height: 8vh;
+    
+}
+.sec-golden > article > section > h5{
+    font-family: 'Work Sans' ;
+    font-weight: 200;
+    font-size: 1.2em;
+}
+.sec-golden > div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.sec-golden > div > img:first-child{
+    width: 45%;
+    height: 90vh;
+    margin-bottom: -20vh;
+    box-shadow: 0px 0px 2px rgb(207, 207, 207);
+}
+.sec-golden > div > img:last-child{
+    width: 22%;
+    height: 50vh;
+    margin-top: 10%;
+    margin-left: -5%;
+    
+}
+.sec-golden-rev{
+
+    background-color: white;
+    overflow-x: hidden;
+}
+.sec-golden-rev > img{
+    width: 20%;
+    float: right;
+    margin-right: -7%;
+    margin-top: -7%;
+    animation-name: ani-rotate;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+@keyframes ani-rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.sec-golden-rev > article{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+   padding: 30vh 10% ;
+}
+.sec-golden-rev > article > div{
+    
+}
+.sec-golden-rev > article > div >h6{
+    font-size: 2em;
+    font-family: 'Work Sans' ;
+    font-weight: 100;
+
+    
+}
+.sec-golden-rev > article > div >h1{
+    font-size: 6em;
+}
+.sec-golden-rev > article > section{
+    padding-left: 10%;
+}
+.sec-golden-rev > article > section > p{
+    font-size: 2em;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    line-height: 8vh;
+    
+}
+.sec-golden-rev > article > section > h5{
+    font-family: 'Work Sans' ;
+    font-weight: 200;
+    font-size: 1.2em;
+}
+.sec-golden-rev > div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+.sec-golden-rev > div > img:first-child{
+    width: 45%;
+    height: 80vh;
+}
+.sec-golden-rev > div > img:last-child{
+    width: 22%;
+    height: 50vh;
+    margin-right: -5%;
+    margin-bottom: 15vh;
+    
+}
+.sec-join{
+    position: relative;
+    overflow: hidden;
+}
+.sec-join > article{
+    color: white;
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 10vh;
+}
+.sec-join > article > h6{
+    font-size: 2em;
+    font-family: 'Work Sans' ;
+    font-weight: 100;
+}
+.sec-join > article > p{
+    font-size: 3em;
+    padding-bottom: 5vh;
+    line-height: 8vh;
+}
+.sec-join > article > a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: 'Work Sans' ;
+    border: 1px solid white;
+    padding: 3% 10% ;
+    transition: 0.4s;
+    font-size: 1.5em;
+    font-weight: 100;
+    margin-bottom: 40vh;
+}
+.sec-join > article > a:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+    background-color: white;
+}
+.sec-join > div{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: rotate(45deg);
+}
+.sec-join > div > h1{
+    background-color: white;
+    font-size: 5em;
+    animation-name: ani-2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    width: 100%;
+    transform: translateX(-10%);
+    padding-right: 50px;
+    
+}
+.sec-join > div > h1 > span{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke:1px rgb(0, 0, 0);
+}
+@keyframes ani-2{
+    from{
+        transform: translateX(-10%);
+    }
+    to{
+        transform: translateX(25%);
+    }
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left:10% ;
+    padding-right:10% ;
+    padding-bottom: 1vh;
+}
+footer > div > a > img{
+    width: 25%;
+}
+footer > div > h4{
+    margin-top: 2vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 960px) {
+    body{
+        font-size: 16px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 75vh;
+        padding-top: 20vh;
+        
+    }
+    .header-btn{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 10vh;
+    }
+    .logo > img{
+        width: 40%;
+    }
+    .art-california > p{
+        font-size: 7.1em;
+    }
+    .mapsec{
+        padding: 29vh 5%;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .images{
+        text-align: center;
+        display: block;
+        padding: 2vh 5%;
+        height: fit-content;
+      }
+
+      .images > h1{
+        text-align: left;
+    }
+    .teil1{
+font-size: 2em;
+text-align: left;
+line-height: 4vh;
+    }
+    .teil2{
+        margin-top: 3vh;
+        font-size: 2em;
+        text-align: left;
+        line-height: 4vh;
+    }
+    .photo1{
+        margin: 0%;
+    }
+    .photo7{
+        width: 100%;
+        grid-row:20/-1 ;
+        grid-column:13/19 ;
+        margin-bottom: 0%;
+    }
+    .photo1{
+        display: block;
+    }
+    .photo2{
+        display: none;
+    }
+    .photo3{
+        display: none;
+    }
+    .photo4{
+        display: none;
+    }
+    .photo5{
+        display: none;
+    }
+    .photo6{
+        display: none;
+    }
+    .photo7{
+        display: none;
+    } 
+    .btnslid{
+        display: inline-block;
+    }
+
+
+
+
+    .sec-golden > article{
+        padding-top: 5vh;
+        padding-left: 4%;
+        padding-bottom: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .sec-golden > article > section{
+       padding-left: 0;
+        
+    } 
+    .sec-golden > article > section > p{
+        font-size: 2em;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+        line-height: 8vh;
+    }
+    .sec-golden > div{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .sec-golden > div > img:first-child{
+        width: 60%;
+        height: 40vh;
+        margin-bottom: -10vh;
+    }
+    .sec-golden > div > img:last-child{
+        width: 30%;
+        height: 20vh;
+    }
+    .sec-golden-rev > article{
+        padding-top: 15vh;
+        padding-left: 4%;
+        padding-bottom: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .sec-golden-rev > article > section{
+       padding-left: 0;
+        
+    } 
+    .sec-golden-rev > article > section > p{
+        font-size: 2em;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+        line-height: 8vh;
+    }
+    .sec-golden-rev > div{
+        display: flex;
+        justify-content: center;
+        align-items:center
+    }
+    .sec-golden-rev > div > img:first-child{
+        width: 60%;
+        height: 40vh;
+
+    }
+    .sec-golden-rev > div > img:last-child{
+        margin-top: 10vh;
+        width: 30%;
+        height: 25vh;
+    }
+
+
+
+
+    .sec-join{
+        display: block;
+        position: static;
+    }
+    .sec-join > article{
+        width: 80%;
+        padding-left: 5%;
+    }
+    .sec-join > article > h6{
+      font-size: 1.5em;
+    }
+    .sec-join > article > p{
+        font-size: 2em;
+    }
+    .sec-join > article > a{
+        margin-bottom: 10vh;
+    }
+    .sec-join > div{
+        transform: rotate(0);
+        position: static;
+        width: 100%;       
+    }
+    .sec-join > div > h1{
+        animation: sd;
+        font-size: 2em;
+        transform: translateX(0);
+        text-align: center;
+        background-color: black;
+        color: white;
+        margin-top: 5vh;
+        animation-name: ani-3;
+        animation-duration: 0.6s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        
+    }
+    @keyframes ani-3{
+        from{
+            opacity: 1;
+        }
+        to{
+            opacity: 0.2;
+        }
+    }
+    .sec-join > div > h1 > span{
+        color: rgb(0, 0, 0);
+        -webkit-text-stroke:1px rgb(255, 255, 255);
+    }
+
+
+
+
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        color: white;
+        padding-left:10% ;
+        padding-right:10% ;
+        padding-bottom: 10vh;
+        padding-bottom: 5vh;
+    }
+    footer > div:last-child{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer > div:last-child > a > img{
+        width: 40%;
+    }
+    footer > div:first-child > a > img{
+        width: 10%;
+        margin-left: 15%;
+        margin-top: 3vh;
+    }
+    footer > div > a > img{
+        width: 10%;
+    }
+    footer > div > h4{
+        text-align: center;
+    }
+    
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        font-size: 12px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 75vh;
+        padding-top: 20vh;
+        
+    }
+    .header-btn{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 10vh;
+    }
+    .logo > img{
+        width: 40%;
+    }
+    .art-california > p{
+        font-size: 7.1em;
+    }
+    .mapsec{
+        padding: 32vh 5%;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .images{
+        text-align: center;
+        display: block;
+        padding: 2vh 5%;
+        height: fit-content;
+      }
+      /* .photo1{
+          margin: 0%;
+      }
+      .photo7{
+          width: 100%;
+          grid-row:20/-1 ;
+          grid-column:13/19 ;
+          margin-bottom: 0%;
+      } */
+      
+    .images > h1{
+        text-align: left;
+    }
+    .teil1{
+font-size: 2em;
+text-align: left;
+line-height: 4vh;
+    }
+    .teil2{
+        margin-top: 3vh;
+        font-size: 2em;
+        text-align: left;
+        line-height: 4vh;
+    }
+    .photo1{
+        margin: 0%;
+    }
+    .photo7{
+        width: 100%;
+        grid-row:20/-1 ;
+        grid-column:13/19 ;
+        margin-bottom: 0%;
+    }
+    .photo1{
+        display: block;
+    }
+    .photo2{
+        display: none;
+    }
+    .photo3{
+        display: none;
+    }
+    .photo4{
+        display: none;
+    }
+    .photo5{
+        display: none;
+    }
+    .photo6{
+        display: none;
+    }
+    .photo7{
+        display: none;
+    } 
+    .btnslid{
+        display: inline-block;
+    }
+
+
+    .sec-golden > article{
+        padding-top: 5vh;
+        padding-left: 4%;
+        padding-bottom: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .sec-golden > article > section{
+       padding-left: 0;
+        
+    } 
+    .sec-golden > article > section > p{
+        font-size: 2em;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+        line-height: 8vh;
+    }
+    .sec-golden > div{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .sec-golden > div > img:first-child{
+        width: 60%;
+        height: 40vh;
+        margin-bottom: -10vh;
+    }
+    .sec-golden > div > img:last-child{
+        width: 30%;
+        height: 20vh;
+    }
+    .sec-golden-rev > article{
+        padding-top: 15vh;
+        padding-left: 4%;
+        padding-bottom: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .sec-golden-rev > article > section{
+       padding-left: 0;
+        
+    } 
+    .sec-golden-rev > article > section > p{
+        font-size: 2em;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+        line-height: 8vh;
+    }
+    .sec-golden-rev > div{
+        display: flex;
+        justify-content: center;
+        align-items:center
+    }
+    .sec-golden-rev > div > img:first-child{
+        width: 60%;
+        height: 40vh;
+
+    }
+    .sec-golden-rev > div > img:last-child{
+        margin-top: 10vh;
+        width: 30%;
+        height: 25vh;
+    }
+
+
+
+
+    .sec-join{
+        display: block;
+        position: static;
+    }
+    .sec-join > article{
+        width: 80%;
+        padding-left: 5%;
+    }
+    .sec-join > article > h6{
+      font-size: 1.5em;
+    }
+    .sec-join > article > p{
+        font-size: 2em;
+    }
+    .sec-join > article > a{
+        margin-bottom: 10vh;
+    }
+    .sec-join > div{
+        transform: rotate(0);
+        position: static;
+        width: 100%;       
+    }
+    .sec-join > div > h1{
+        animation: sd;
+        font-size: 2em;
+        transform: translateX(0);
+        text-align: center;
+        background-color: black;
+        color: white;
+        margin-top: 5vh;
+        animation-name: ani-3;
+        animation-duration: 0.6s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        
+    }
+    @keyframes ani-3{
+        from{
+            opacity: 1;
+        }
+        to{
+            opacity: 0.2;
+        }
+    }
+    .sec-join > div > h1 > span{
+        color: rgb(0, 0, 0);
+        -webkit-text-stroke:1px rgb(255, 255, 255);
+    }
+
+
+
+
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        color: white;
+        padding-left:10% ;
+        padding-right:10% ;
+        padding-bottom: 10vh;
+        padding-bottom: 5vh;
+    }
+    footer > div:last-child{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer > div:last-child > a > img{
+        width: 40%;
+    }
+    footer > div:first-child > a > img{
+        width: 10%;
+        margin-left: 15%;
+        margin-top: 3vh;
+    }
+    footer > div > a > img{
+        width: 10%;
+    }
+    footer > div > h4{
+        text-align: center;
+    }
+    }
+
+
+
+@media only screen and (max-width: 576px) {
+    body{
+        font-size: 8px;
+        margin: 0;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 75vh;
+        padding-top: 10vh;
+        padding-bottom: 15vh;
+        
+    }
+    .header-btn{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        height: 10vh;
+    }
+    .logo > img{
+        width: 40%;
+    }
+    .art-california > p{
+        font-size: 6em;
+    }
+    .mapsec{
+        padding: 28vh 5%;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .images{
+        text-align: center;
+      padding: 2vh 5%;
+      height: fit-content;
+    }
+    .images > h1{
+        text-align: left;
+    }
+    .teil1{
+font-size: 2em;
+text-align: left;
+line-height: 4vh;
+    }
+    .teil2{
+        margin-top: 3vh;
+        font-size: 2em;
+        text-align: left;
+        line-height: 4vh;
+    }
+    .photo1{
+        margin: 0%;
+    }
+    .photo7{
+        width: 100%;
+        grid-row:20/-1 ;
+        grid-column:13/19 ;
+        margin-bottom: 0%;
+    }
+    .photo1{
+        display: block;
+    }
+    .photo2{
+        display: none;
+    }
+    .photo3{
+        display: none;
+    }
+    .photo4{
+        display: none;
+    }
+    .photo5{
+        display: none;
+    }
+    .photo6{
+        display: none;
+    }
+    .photo7{
+        display: none;
+    } 
+    .btnslid{
+        display: inline-block;
+    }
+
+
+
+    .sec-golden > article{
+        padding-top: 5vh;
+        padding-left: 4%;
+        padding-bottom: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .sec-golden > article > section{
+       padding-left: 0;
+        
+    } 
+    .sec-golden > article > section > p{
+        font-size: 2em;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+        line-height: 8vh;
+    }
+    .sec-golden > div{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .sec-golden > div > img:first-child{
+        width: 60%;
+        height: 40vh;
+        margin-bottom: -10vh;
+    }
+    .sec-golden > div > img:last-child{
+        width: 30%;
+        height: 20vh;
+    }
+    .sec-golden-rev > article{
+        padding-top: 15vh;
+        padding-left: 4%;
+        padding-bottom: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .sec-golden-rev > article > section{
+       padding-left: 0;
+        
+    } 
+    .sec-golden-rev > article > section > p{
+        font-size: 2em;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+        line-height: 8vh;
+    }
+    .sec-golden-rev > div{
+        display: flex;
+        justify-content: center;
+        align-items:center
+    }
+    .sec-golden-rev > div > img:first-child{
+        width: 60%;
+        height: 40vh;
+
+    }
+    .sec-golden-rev > div > img:last-child{
+        margin-top: 10vh;
+        width: 30%;
+        height: 25vh;
+    }
+
+
+
+
+    .sec-join{
+        display: block;
+        position: static;
+    }
+    .sec-join > article{
+        width: 80%;
+        padding-left: 5%;
+    }
+    .sec-join > article > h6{
+      font-size: 1.5em;
+    }
+    .sec-join > article > p{
+        font-size: 2em;
+    }
+    .sec-join > article > a{
+        margin-bottom: 10vh;
+    }
+    .sec-join > div{
+        transform: rotate(0);
+        position: static;
+        width: 100%;       
+    }
+    .sec-join > div > h1{
+        animation: sd;
+        font-size: 2em;
+        transform: translateX(0);
+        text-align: center;
+        background-color: black;
+        color: white;
+        margin-top: 5vh;
+        animation-name: ani-3;
+        animation-duration: 0.6s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        
+    }
+    @keyframes ani-3{
+        from{
+            opacity: 1;
+        }
+        to{
+            opacity: 0.2;
+        }
+    }
+    .sec-join > div > h1 > span{
+        color: rgb(0, 0, 0);
+        -webkit-text-stroke:1px rgb(255, 255, 255);
+    }
+
+
+
+
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        color: white;
+        padding-left:10% ;
+        padding-right:10% ;
+        padding-bottom: 10vh;
+        padding-bottom: 5vh;
+    }
+    footer > div:last-child{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer > div:last-child > a > img{
+        width: 40%;
+    }
+    footer > div:first-child > a > img{
+        width: 10%;
+        margin-left: 15%;
+        margin-top: 3vh;
+    }
+    footer > div > a > img{
+        width: 10%;
+    }
+    footer > div > h4{
+        text-align: center;
+    }
+    
+  }
+
