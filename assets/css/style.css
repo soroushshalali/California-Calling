@@ -46,7 +46,7 @@ header{
     
 }
 .california > h6{
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 100;
     font-family: 'Work Sans' ;
 }
@@ -569,10 +569,6 @@ line-height: 4vh;
         width: 30%;
         height: 25vh;
     }
-
-
-
-
     .sec-join{
         display: block;
         position: static;
@@ -994,9 +990,6 @@ line-height: 4vh;
     .btnslid{
         display: inline-block;
     }
-
-
-
     .sec-golden > article{
         padding-top: 5vh;
         padding-left: 4%;
@@ -1032,11 +1025,14 @@ line-height: 4vh;
     .sec-golden-rev > article{
         padding-top: 15vh;
         padding-left: 4%;
+        padding-right: 4%;
         padding-bottom: 10vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+
     }
+    
     .sec-golden-rev > article > section{
        padding-left: 0;
         
